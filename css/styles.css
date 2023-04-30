@@ -144,7 +144,8 @@ img {
 }
 .contacts {
   font-style: normal;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts-list {
   gap: 40px;
@@ -168,7 +169,8 @@ img {
 .footer {
   height: 312px;
   background-color: var(--color-navy-blue);
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-container {
   display: flex;
@@ -223,13 +225,14 @@ img {
 /* ========== */
 .hero {
   max-width: 1440px;
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/index/background-image.jpg);
+    url(./images/index/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -269,7 +272,8 @@ img {
 /* Section 2 */
 /* ========= */
 .features {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-list {
   display: flex;
@@ -283,7 +287,6 @@ img {
   align-items: center;
   justify-content: center;
   height: 112px;
-  padding: 24px 100px;
   margin-bottom: 8px;
   background-color: var(--color-cloud);
   border-radius: 4px;
@@ -314,8 +317,8 @@ img {
 /* Section 4 */
 /* ========= */
 .team {
-  height: 732px;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--color-cloud);
 }
 .team-title {
@@ -333,7 +336,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-container {
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-sub {
   text-align: center;
@@ -370,7 +374,8 @@ img {
 /* Section 5 */
 /* ========= */
 .customers {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .customers-title {
   text-align: center;
@@ -391,7 +396,6 @@ img {
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 16px 32px;
   color: var(--color-light-slate);
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
@@ -407,7 +411,8 @@ img {
 
 /* =============Portfolio=========== */
 .projects {
-  padding: 96px 0 120px;
+  padding-top: 96px;
+  padding-bottom: 120x;
 }
 
 /* ======= */
@@ -451,6 +456,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 120px;
 }
 .projects-item {
   width: calc((100% - 48px) / 3);
@@ -467,7 +473,8 @@ img {
   margin-bottom: 8px;
 }
 .projects-desc {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border: 1px solid var(--color-cornflower);
   border-top: none;
 }
